@@ -58,6 +58,8 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-    }
+    },
+    //缓存 加快build的速度
+    cache:true
   }
 }
